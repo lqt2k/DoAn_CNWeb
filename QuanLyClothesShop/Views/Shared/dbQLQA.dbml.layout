@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.25" name="dbQLQA">
+  <DataContextMoniker Name="/dbQLQADataContext" />
+  <nestedChildShapes>
+    <classShape Id="7c3ba4ab-b735-408a-88b2-5a42d1d128f8" absoluteBounds="6.25, 2.5, 2, 1.578595377604167">
+      <DataClassMoniker Name="/dbQLQADataContext/CHITIETHD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66663675-0905-402f-aad8-467398ed2052" absoluteBounds="6.265, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e7e15d55-df83-4e67-b44a-41bc850462db" absoluteBounds="3.5, 6.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dbQLQADataContext/HOADON" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e99d96d-42fa-45de-aaca-a41c7006d341" absoluteBounds="3.515, 6.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a3d0c545-0e6e-45ba-af27-0391f47b228c" absoluteBounds="0.75, 6.125, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/dbQLQADataContext/KHACHHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5207540-833c-4663-a4f3-796b79ce0676" absoluteBounds="0.765, 6.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e4e706ac-6da0-45e0-b506-cf21be722001" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/dbQLQADataContext/LOAI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fc064118-a390-4643-9e71-da426ad71891" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e4e122a-e7e1-48ff-8fb0-5337ecfeda60" absoluteBounds="1.5, 9.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/dbQLQADataContext/LOAITK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94ab270e-0ecd-4513-b0d1-bb3820528a97" absoluteBounds="1.5150000000000001, 10.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e939484a-68f4-492f-803f-1c7c1c45aa40" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/dbQLQADataContext/NHASANXUAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b83e1709-2a7f-4140-9fb2-5218ba772322" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f7f189e-bf42-4532-850e-43ed8f2433a5" absoluteBounds="3.5, 2.25, 2, 2.155499674479167">
+      <DataClassMoniker Name="/dbQLQADataContext/SANPHAM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="409aa51a-5e0a-4f75-8b04-f8e92a2b57f5" absoluteBounds="3.515, 2.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.28929768880208); (7.25 : 7.28929768880208); (7.25 : 4.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/HOADON/HOADON_CHITIETHD" />
+      <nodes>
+        <classShapeMoniker Id="e7e15d55-df83-4e67-b44a-41bc850462db" />
+        <classShapeMoniker Id="7c3ba4ab-b735-408a-88b2-5a42d1d128f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.28929768880208); (3.5 : 7.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/KHACHHANG/KHACHHANG_HOADON" />
+      <nodes>
+        <classShapeMoniker Id="a3d0c545-0e6e-45ba-af27-0391f47b228c" />
+        <classShapeMoniker Id="e7e15d55-df83-4e67-b44a-41bc850462db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.125 : 9.75); (2.125 : 8.47280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/LOAITK/LOAITK_KHACHHANG" />
+      <nodes>
+        <classShapeMoniker Id="5e4e122a-e7e1-48ff-8fb0-5337ecfeda60" />
+        <classShapeMoniker Id="a3d0c545-0e6e-45ba-af27-0391f47b228c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.28929768880208); (6.25 : 3.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/SANPHAM/SANPHAM_CHITIETHD" />
+      <nodes>
+        <classShapeMoniker Id="4f7f189e-bf42-4532-850e-43ed8f2433a5" />
+        <classShapeMoniker Id="7c3ba4ab-b735-408a-88b2-5a42d1d128f8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.34699625651042); (3.5 : 3.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/NHASANXUAT/NHASANXUAT_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="e939484a-68f4-492f-803f-1c7c1c45aa40" />
+        <classShapeMoniker Id="4f7f189e-bf42-4532-850e-43ed8f2433a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.34699625651042); (4.5 : 1.34699625651042); (4.5 : 2.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbQLQADataContext/LOAI/LOAI_SANPHAM" />
+      <nodes>
+        <classShapeMoniker Id="e4e706ac-6da0-45e0-b506-cf21be722001" />
+        <classShapeMoniker Id="4f7f189e-bf42-4532-850e-43ed8f2433a5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

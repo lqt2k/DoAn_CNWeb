@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "ThongTinDonHang";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+@using QuanLyClothesShop.Views.Shared;
+@model List<HOADON>
+
+<div class="container">
+        <h2>DANH SÁCH NGƯỜI DÙNG</h2>
+        <table class="table">
+            <tr>
+                <td colspan="2">
+                    <a href="@Url.Action("ThemNguoiDung", "Admin")">
+                        <input class="btn btn-dark", style="width:100%; height:50px; font-size:18px;"} type="button" value="THÊM NGƯỜI DÙNG" />
+                    </a>
+                </td>
+                <td colspan="8"></td>
+            </tr>
+            <tr class="text-center">
+                <td style="border:1px solid black;"><b style="font-weight:bold;">MÃ HÓA ĐƠN</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">NGÀY LẬP</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">MÃ KHÁCH HÀNG</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">THÀNH TIỀN</b></td>
+                <td style="border:1px solid black;">XEM CHI TIẾT</td>
+                <td style="border:1px solid black;">SỮA</td>
+                <td style="border:1px solid black;">XÓA</td>
+            </tr>
+            @foreach (HOADON hd in Model)
+            {
+                <tr class="text-center">
+                    <td style="border:1px solid black;"><p>@hd.MAHD</p></td>
+                    <td style="border:1px solid black;"><p>@hd.NGAYLAP</p></td>
+                    <td style="border:1px solid black;"><p>@hd.MAKH</p></td>
+                    <td style="border:1px solid black;"><p>@hd.THANHTIEN</p></td>
+
+                   @* @if(@.MALOAITK == 1)
+                    {
+                        <td style="border:1px solid black;"><p>Admin</p></td>
+                    }
+                    else
+                    {
+                        <td style="border:1px solid black;"><p>Khách hàng</p></td>
+                    }*@
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Chi tiết", "ChiTietHoaDon", new { id=@hd.MAHD })
+                    </td>
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Sửa", "SuaHoaDon", new { id=@hd.MAHD  })
+                    </td>
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Xóa", "XoaHoaDon", new { id=@hd.MAHD  })
+                    </td>
+                </tr>
+            }
+        </table>
+</div>

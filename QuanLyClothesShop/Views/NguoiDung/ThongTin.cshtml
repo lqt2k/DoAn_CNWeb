@@ -1,0 +1,51 @@
+﻿@using QuanLyClothesShop.Models;
+
+@{
+    ViewBag.Title = "ThongTin";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+@{
+    QuanLyClothesShop.Views.Shared.KHACHHANG khach = (QuanLyClothesShop.Views.Shared.KHACHHANG)Session["TaiKhoan"];
+}
+
+
+@using (Html.BeginForm())
+{
+<div class="container wow slideInLeft" style="margin-left:100px;">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Thông tin cá nhân</h5>
+              <hr />
+                <form  class="form-signin">
+                <table>
+                    <tr style="height:40px">
+                        <td>Họ và tên:</td>
+                        <td style="font-weight:bold">@khach.TENKH</td>
+                    </tr>
+                    <tr style="height:40px">
+                        <td>Giới tính:</td>
+                        <td style="font-weight:bold">@khach.GIOITINH</td>
+                    </tr>
+                    <tr style="height:40px">
+                        <td>Địa chỉ:</td>
+                        <td style="font-weight:bold">@khach.DIACHI</td>
+                    </tr>
+                    <tr style="height:40px">
+                        <td>Email:</td>
+                        <td style="font-weight:bold">@khach.EMAIL</td>
+                    </tr>
+                </table>
+                    <hr />
+                Đăng xuất<a href="@Url.Action("DangXuat","DangNhap")" style="color:black;"> <img src="~/Content/Images/dangxuat.PNG" Height="25px" /></a>
+
+                    @*<a href="@Url.Action("ThongTinDonHang","GioHang")" style="color:black;">THÔNG TIN ĐƠN HÀNG</a>   *@      
+            </form>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}

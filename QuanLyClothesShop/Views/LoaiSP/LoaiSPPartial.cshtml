@@ -1,0 +1,25 @@
+﻿@model IEnumerable<QuanLyClothesShop.Views.Shared.LOAI>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <ul class="list-group list-group-flush text-left">
+        <li class="list-group-item" style="background-color:#EFEFEF; text-align:center;"><a href="#" style="text-transform:uppercase; text-decoration:none; color:black; font-weight:bold; font-size:large;">Danh Mục Sản Phẩm</a></li>
+    </ul>
+    @foreach (var item in Model) 
+    {
+        <ul class="list-group list-group-flush text-left">
+            <li class="list-group-item" style="text-align:left"><a href="@Url.Action("SanPhamTheoLoai","LoaiSP",new { maloai = item.MALOAI})" style="text-transform:uppercase; text-decoration:none; color:black;">@Html.DisplayFor(modelItem => item.TENLOAI)</a></li>
+        </ul>
+    }
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "DanhSachKhachHang";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@using QuanLyClothesShop.Views.Shared;
+@model List<KHACHHANG>
+
+<div class="container">
+        <h2>DANH SÁCH NGƯỜI DÙNG</h2>
+        <table class="table">
+            <tr>
+                <td colspan="2">
+                    <a href="@Url.Action("ThemNguoiDung", "Admin")">
+                        <input class="btn btn-dark", style="width:100%; height:50px; font-size:18px;"} type="button" value="THÊM NGƯỜI DÙNG" />
+                    </a>
+                </td>
+                <td colspan="8"></td>
+            </tr>
+            <tr class="text-center">
+                <td style="border:1px solid black;"><b style="font-weight:bold;">MÃ NGƯỜI DÙNG</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">TÊN SẢN PHẨM</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">TÊN TÀI KHOẢN</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">MẬT KHẨU</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">ĐỊA CHỈ</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">EMAIL</b></td>
+                <td style="border:1px solid black;"><b style="font-weight:bold;">LOẠI TÀI KHOẢN</b></td>
+                <td style="border:1px solid black;"></td>
+                <td style="border:1px solid black;"></td>
+                <td style="border:1px solid black;"></td>
+            </tr>
+            @foreach (KHACHHANG kh in Model)
+            {
+                <tr class="text-center">
+                    <td style="border:1px solid black;"><p>@kh.MAKH</p></td>
+                    <td style="border:1px solid black;"><p>@kh.TENKH</p></td>
+                    <td style="border:1px solid black;"><p>@kh.TENDN</p></td>
+                    <td style="border:1px solid black;"><p>@kh.MATKHAU</p></td>
+                    <td style="border:1px solid black;"><p>@kh.DIACHI</p></td>
+                    <td style="border:1px solid black;"><p>@kh.EMAIL</p></td>
+                    @if(@kh.MALOAITK == 1)
+                    {
+                        <td style="border:1px solid black;"><p>Admin</p></td>
+                    }
+                    else
+                    {
+                        <td style="border:1px solid black;"><p>Khách hàng</p></td>
+                    }
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Chi tiết", "ChiTietKhachHang", new { id=@kh.MAKH })
+                    </td>
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Sửa", "SuaKhachHang", new { id=@kh.MAKH })
+                    </td>
+                    <td style="border:1px solid black;">
+                        @Html.ActionLink("Xóa", "XoaKhachHang", new { id=@kh.MAKH })
+                    </td>
+                </tr>
+            }
+        </table>
+</div>

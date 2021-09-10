@@ -1,0 +1,100 @@
+﻿@using QuanLyClothesShop.Models;
+@model List<GioHang>
+@{
+    ViewBag.Title = "XacNhanDonHang";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+    
+}
+
+<div class="contaienr">
+    <form action="/GioHang/TaoDonDatHang" method="POST" style="margin-left:200px;">
+        <h2 style="margin-left:90px;">Thông tin đặt hàng</h2>
+        <table style="display:inline;" class="text-left">
+            <tr><td>&nbsp;</td><td></td></tr>
+            <tr>
+                <td colspan="2" class="text-center">
+                    <table class="table" style="display:inline;">
+                        <tr>
+                            <td colspan="4" class="text-danger" style="font-weight:bold; font-size:20px;">Thông tin đơn hàng</td>
+                        </tr>
+                        <tr>
+                            <td><b style="font-weight:bold;">Mã sản phẩm</b></td>
+                            <td><b style="font-weight:bold;">Tên sản phẩm</b></td>
+                            <td><b style="font-weight:bold;">Số lượng</b></td>
+                            <td><b style="font-weight:bold;">Đơn giá</b></td>
+                        </tr>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.iMaSP</td>
+                                <td>@item.sTenSP</td>
+                                <td>@item.iSoLuong</td>
+                                <td>@item.dDonGia</td>
+                            </tr>
+                        }
+                    </table>
+                </td>
+            </tr>
+            <tr style="border-top:1px solid black;"><td>&nbsp;</td><td></td></tr>
+            <tr>
+                <td class="text-center">
+                    <b>Tổng số lượng: @ViewBag.TongSoLuong</b>
+                </td>
+                <td class="text-center">
+                    <b>Tổng tiền: @string.Format("{0:#,###}",@ViewBag.TongTien) ₫</b>
+                </td>
+            </tr>
+            <tr><td>&nbsp;</td><td></td></tr>
+            <tr>
+                <td style="font-weight:bold; text-align:right;">
+                    <b>Ghi chú:</b>
+                </td>
+                <td>
+                    <input type="text" name="txtGhiChu" style="width:283px; height:50px; border:2px solid black; 
+                        border-radius:15px;" />
+                </td>
+            </tr>
+            <tr><td>&nbsp;</td><td></td></tr>
+        </table>
+    </form>
+</div>
+
+@{
+    QuanLyClothesShop.Views.Shared.KHACHHANG khach = (QuanLyClothesShop.Views.Shared.KHACHHANG)Session["TaiKhoan"];
+}
+
+
+@using (Html.BeginForm())
+{
+<div class="container wow slideInLeft" style="margin-left:100px;">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Thông Tin Đặt Hàng</h5>
+              <hr />
+                <form  class="form-signin">
+                <table>
+                    <tr style="height:40px">
+                        <td>Họ tên khách hàng:</td>
+                        <td style="font-weight:bold">@khach.TENKH</td>
+                    </tr>
+                    <tr style="height:40px">
+                        <td>Địa chỉ:</td>
+                        <td style="font-weight:bold">@khach.DIACHI</td>
+                    </tr>
+                    <tr style="height:40px">
+                        <td>Email:</td>
+                        <td style="font-weight:bold">@khach.EMAIL</td>
+                    </tr>
+                </table>
+                <h2 style="color:red; text-align:center">@ViewBag.Thongbao </h2>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Đồng ý Đặt Hàng</button>            
+            </form>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+

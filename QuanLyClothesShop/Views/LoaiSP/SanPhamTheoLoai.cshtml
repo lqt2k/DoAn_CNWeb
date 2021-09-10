@@ -1,0 +1,43 @@
+﻿@model IEnumerable<QuanLyClothesShop.Views.Shared.SANPHAM>
+
+@{
+    ViewBag.Title = "SanPhamTheoLoai";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+<br />
+
+<h2>SẢN PHẨM THEO LOẠI</h2>
+@ViewBag.LoaiSP
+
+<div class="row">
+    @foreach (var item in Model) 
+    {
+        <div class="col-md-3 wow slideInLeft">
+                <div class="card rounded" style="margin-top:20px">
+                    <div class="card-image">
+                        <div class="box1 wow bounceInUp">
+                            <img class="img-fluid " alt="@item.TENSP" src="~/Content/Images/@item.HINHANH" style="width:245px;height:244px" />
+                            <h3 class="title">@item.TENSP</h3>
+                            <ul class="icon">
+                                @*  <li><a href="#"><i class="fa fa-search"></i></a></li>*@
+                                <li>  <a href="@Url.Action("XemChiTiet", "SanPham", new { @masp = item.MASP})"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="card-image-overlay m-auto" style="text-align:center">
+                                 <div style="margin-left:10px; text-align:center; margin-bottom: 5px;margin-top: 5px">
+                            <a href="@Url.Action("SanPhamPartial","SanPham")" style="text-decoration:none; float:left">
+                                <img src="~/Content/Images/home.png" />
+                            </a>
+                            <p style="color: red; float:left; padding-left: 20px"> @string.Format("{0:0,0}", item.DONGIA) VNĐ</p>
+                            <a href="@Url.Action("ThemGioHang", "GioHang", new { @msp = item.MASP, @strURL = Request.Url.ToString() })" style="margin-right :10px;text-decoration:none; float:right">
+                                <img src="~/Content/Images/cart1.png" />
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }   
+</div>

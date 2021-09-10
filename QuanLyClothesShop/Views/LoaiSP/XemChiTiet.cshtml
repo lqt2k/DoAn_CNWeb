@@ -1,0 +1,80 @@
+﻿@model QuanLyClothesShop.Views.Shared.SANPHAM
+
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+
+<h2>Chi Tiết Sản Phẩm</h2>
+<div class="container">
+<div class="row">
+    <table style="margin-right:50px;">
+        <tr>
+            <td rowspan="5">
+                <img src="~/Content/Images/@Html.DisplayFor(model => model.HINHANH)"/>
+                <div>
+                <a href="@Url.Action("ThemGioHang", "GioHang", new { @msp = Model.MASP, @strURL = Request.Url.ToString() })">
+                    <input type="submit" value="THÊM VÀO GIỎ" class="btn btn-primary" style="background-color:#808080; color:white"/>
+                </a>
+                <a href="@Url.Action("SanPhamPartial","SanPham")">
+                    <input type="submit" value="MUA TIẾP" class="btn btn-primary" style="background-color:#808080; color:white"/>
+                </a>                                   
+                </div>     
+            </td>                              
+        </tr>
+        <tr>
+            <td style="width:150px; text-align:left"; >
+                Tên Sản Phẩm:
+            </td>
+            <td style="color:black; font-weight:bold; text-align:justify;">
+                @Html.DisplayFor(model => model.TENSP)
+            </td>
+        </tr>        
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Tên Loại:
+            </td>
+            <td style="color:black; text-align:justify;">
+                @Html.DisplayFor(model => model.LOAI.TENLOAI)
+            </td>
+        </tr>
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Mô tả:
+            </td>
+            <td style="color:black; text-align:justify;">
+                @Html.DisplayFor(model => model.MOTA)
+            </td>
+        </tr>
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Giá Bán:
+            </td>
+            <td style="text-align:justify; color:red; font-weight:bold;">
+                @string.Format("{0:0,0}",@Model.DONGIA) VNĐ
+            </td>
+        </tr>      
+    </table>  
+</div>
+    <br />
+    <hr />
+    <h2>Hệ Thống Cửa Hàng</h2>
+                <p style="font-size:xx-large">
+                        <p style="font-weight:bold">Chi Nhánh Hồ Chí Minh</p>
+                        17 Bắc Hải, Phường 15, Quận 10, TP.Hồ Chí Minh<br />
+                        7 Huỳnh Khương Ninh, Phường Đakao, Quận 1, TP. Hồ Chí Minh<br />
+                        132 Nguyễn Sơn, Phường Phú Thọ Hòa, Quận Tân Phú, TP.Hồ Chí Minh<br />
+                        41 Quang Trung, Phường 10, Quận Gò Vấp, TP.Hồ Chí Minh<br />
+                        26 Lý Tự Trọng, Phường Bến Nghé, Quận 1, TP.Hồ Chí Minh<br />
+                        Central Market Lê Lai (Số 4 Phạm Ngũ Lão), Phường Phạm Ngũ Lão, Quận 1, TP.Hồ Chí Minh<br /><br />
+                        <p style="font-weight:bold">Chi Nhánh Biên Hòa:</p>
+                        235 Phan Trung, Phường Tân Tiến, TP. Biên Hòa, Đồng Nai<br /><br />
+                        <p style="font-weight:bold">Chi Nhánh Hà Nội:</p>
+                        49-51 Hồ Đắc Di, Nam Đồng, Đống Đa, Hà Nội.<br />
+                        121 Phố Huế, Hai Bà Trưng, Hà Nội<br />
+                        Tầng 7 Vincom Bà Triệu, Hai Bà Trưng, Hà Nội<br />
+                        28 Khúc Thừa Dụ, Dịch Vọng, Cầu Giấy<br />
+                        <b style="font-weight:bold">SĐT: </b>0933 800 190 - 1900252557<br />
+                        <b style="font-weight:bold">Email: </b>Dirtycoinsxinchao@gmail.com<br />
+                 </p>
+</div>

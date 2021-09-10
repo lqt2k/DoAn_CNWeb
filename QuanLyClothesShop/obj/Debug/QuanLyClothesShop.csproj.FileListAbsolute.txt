@@ -1,0 +1,210 @@
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Optimization.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Providers.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\WebGrease.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.dll
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.xml
+D:\Công Nghệ Web\DoAn\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Providers.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+C:\Users\Admin\Desktop\Do Cac Mon HK5\CN web\QuanLyClothesShop\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Optimization.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Providers.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\WebGrease.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.dll.config
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csprojAssemblyReference.cache
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csproj.CoreCompileInputs.cache
+D:\CN Web\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csproj.CopyComplete
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Providers.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\WebGrease.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+C:\Users\Admin\Desktop\CNWeb\QuanLyClothesShop(17.12)\QuanLyClothesShop\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\EntityFramework.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.Mvc.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Mvc.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Optimization.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Providers.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Razor.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\WebGrease.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.Mvc.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\EntityFramework.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Mvc.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Razor.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csprojResolveAssemblyReference.cache
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+D:\CN Web\HoanThien\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\QuanLyClothesShop.dll.config
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\QuanLyClothesShop.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\QuanLyClothesShop.pdb
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Antlr3.Runtime.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\EntityFramework.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Microsoft.Web.Infrastructure.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Newtonsoft.Json.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.Mvc.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Net.Http.Formatting.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.WebHost.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Mvc.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Optimization.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Providers.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Razor.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Razor.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\WebGrease.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\PagedList.Mvc.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\EntityFramework.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\Newtonsoft.Json.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Net.Http.Formatting.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Http.WebHost.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Mvc.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.Razor.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Deployment.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\bin\System.Web.WebPages.Razor.xml
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csproj.AssemblyReference.cache
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csproj.CoreCompileInputs.cache
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.csproj.CopyComplete
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.dll
+E:\DoAnCu\DoAn_NguyenVanDo_LeQuangTrung_SangT5\DoAn_NguyenVanDo_LeQuangTrung_SangT5\QuanLyClothesShop\obj\Debug\QuanLyClothesShop.pdb

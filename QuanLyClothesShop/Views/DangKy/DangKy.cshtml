@@ -1,0 +1,81 @@
+﻿
+@model QuanLyClothesShop.Views.Shared.KHACHHANG
+@{
+    ViewBag.Title = "DangKy";
+    Layout = "~/Views/Shared/HomeLayout.cshtml";
+}
+<link href="~/CSS/Dangky.css" rel="stylesheet" />
+@using(Html.BeginForm())
+{
+ <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card card-signin flex-row my-5">
+          <div class="card-img-left d-none d-md-flex">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Đăng Ký Tài Khoản</h5>
+            <form class="form-signin">
+              <div class="form-label-group">
+                <input name="txtTen" type="text" id="inputUserame" class="form-control" placeholder="Họ tên" style="height:50px; padding-left: 20px" maxlength="25" minlength="3" required autofocus>
+                <label for="inputUserame">Họ Tên</label>
+              </div>
+
+           <div class="form-label-group">
+                <input name="txtTaiKhoan" type="text" id="inputUd" class="form-control" placeholder="Tài Khoản" style="height:50px; padding-left: 20px" maxlength="15" minlength="4" pattern="^[a-zA-Z0-9_.-]*$" required autofocus>
+                <label for="inputUserame">Tài Khoản</label>
+              </div>
+              
+                <div class="form-label-group">
+                <input name="txtMatKhau" type="password" id="inputPassword" class="form-control" placeholder="Password" style="height:50px; padding-left: 20px" minlength="6" maxlength="25" required>
+                <label for="inputPassword">Password</label>
+              </div>
+              <hr>
+                <div class="form-label-group">
+                <input name="txtDiaChi" type="text" id="inputDiachi" class="form-control" placeholder="Địa Chỉ" style="height:50px; padding-left: 20px" maxlength="25" required autofocus>
+                <label for="inputUserame">Địa Chỉ</label>
+              </div>
+               <div class="form-label-group">
+                <input name="txtGioiTinh" type="text" id="inputGioiTinh" class="form-control" placeholder="Giới Tính" style="height:50px; padding-left: 20px" maxlength="25" required autofocus>
+                <label for="inputUserame">Giới Tính</label>
+              </div>
+
+                 <div class="form-label-group">
+                <input name="txtEmail" type="email" id="inputEmail" class="form-control" placeholder="Email address" style="height:50px; padding-left: 20px" maxlength="25" required>
+                <label for="inputEmail">Email address</label>
+              </div>
+
+              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Đăng ký</button>
+              <a class="d-block text-center mt-2" href="/DangNhap/DangNhap">Đăng Nhập</a>
+              
+              <hr class="my-4">
+                      <h2 style="margin-top:20px; color:red; text-align:center;"> @ViewBag.Thongbao</h2>
+                        <h2 style="margin-top:20px; color:red; text-align:center;"> @ViewBag.ktra</h2>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+<br />
+    <hr />
+    <h2>Hệ Thống Cửa Hàng</h2>
+                <p style="font-size:xx-large">
+                        <p style="font-weight:bold">Chi Nhánh Hồ Chí Minh</p>
+                        17 Bắc Hải, Phường 15, Quận 10, TP.Hồ Chí Minh<br />
+                        7 Huỳnh Khương Ninh, Phường Đakao, Quận 1, TP. Hồ Chí Minh<br />
+                        132 Nguyễn Sơn, Phường Phú Thọ Hòa, Quận Tân Phú, TP.Hồ Chí Minh<br />
+                        41 Quang Trung, Phường 10, Quận Gò Vấp, TP.Hồ Chí Minh<br />
+                        26 Lý Tự Trọng, Phường Bến Nghé, Quận 1, TP.Hồ Chí Minh<br />
+                        Central Market Lê Lai (Số 4 Phạm Ngũ Lão), Phường Phạm Ngũ Lão, Quận 1, TP.Hồ Chí Minh<br /><br />
+                        <p style="font-weight:bold">Chi Nhánh Biên Hòa:</p>
+                        235 Phan Trung, Phường Tân Tiến, TP. Biên Hòa, Đồng Nai<br /><br />
+                        <p style="font-weight:bold">Chi Nhánh Hà Nội:</p>
+                        49-51 Hồ Đắc Di, Nam Đồng, Đống Đa, Hà Nội.<br />
+                        121 Phố Huế, Hai Bà Trưng, Hà Nội<br />
+                        Tầng 7 Vincom Bà Triệu, Hai Bà Trưng, Hà Nội<br />
+                        28 Khúc Thừa Dụ, Dịch Vọng, Cầu Giấy<br />
+                        <b style="font-weight:bold">SĐT: </b>0933 800 190 - 1900252557<br />
+                        <b style="font-weight:bold">Email: </b>Dirtycoinsxinchao@gmail.com<br />
+                 </p>

@@ -1,0 +1,86 @@
+﻿.wrapper
+{ 
+  padding: 20px;     
+} 
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+  }
+}
+
+.example-1
+{
+  float: left;
+  margin: 40px;
+  width: 130px;
+  height: 130px;
+  font: 13px/130px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  background: rgba(30, 144, 255, 0.6);
+  border-radius: 50%;
+  animation: shadow-pulse 1s infinite;
+}
+.example-2
+{
+  
+  margin: 75px 40px 20px 620px;
+  width: 300px;
+  height: 60px;
+  font: 40px/60px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  background: rgba(3, 3, 3, 0.6);
+  border-radius: 3px;
+  animation: shadow-pulse 1s infinite;
+}
+.example-3
+{
+  float: left;
+  margin: 40px 0 0 40px;
+  width: 130px;
+  height: 130px;
+  font: 13px/130px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
+  background: rgba(30, 144, 255, 0.6);
+  border-radius: 50%;
+  animation: shadow-pulse-big 1s 1;
+}
+.example-0
+{
+  
+  margin: 75px 40px 20px 450px;
+  width: 600px;
+  height: 60px;
+  font: 40px/60px 'Barlow Semi Condensed', sans-serif;
+  text-transform: uppercase;
+    letter-spacing: 1px;
+  color: #f00;
+  text-align: center;
+  background: rgba(3, 3, 3, 0.6);
+  border-radius: 3px;
+  animation: shadow-pulse 1s infinite;
+}
+Resources

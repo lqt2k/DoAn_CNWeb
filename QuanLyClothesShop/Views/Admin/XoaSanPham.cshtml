@@ -1,0 +1,96 @@
+﻿@{
+    ViewBag.Title = "XoaSanPham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model QuanLyClothesShop.Views.Shared.SANPHAM
+<h3>Bạn có chắc muốn xóa sản phẩm này?</h3>
+<fieldset>
+    <legend>Thông tin sản phẩm</legend>
+    
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Tên sản phẩm:</p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="display-field">
+                @Html.DisplayFor(model => model.TENSP)
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Giá:</p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="display-field">
+                @Html.DisplayFor(model => model.DONGIA) đ
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Hình minh họa:</p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="display-field">
+                <img style="width:200px; height:220px;" src="~/Content/Images/@Html.DisplayFor(model => model.HINHANH)" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Danh sách hình:</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Mã loại sản phẩm:</p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="display-field">
+                @Html.DisplayFor(model => model.MALOAI)
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-2">
+            <div class="display-label">
+                 <p>Mã nhà sản xuất:</p>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div class="display-field">
+                @Html.DisplayFor(model => model.MANSX)
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        @using (Html.BeginForm()) {
+            <input class="btn btn-dark" style="width:400px;" type="submit" value="XÓA" />
+        }
+    </div>
+
+    <div class="row mt-3">
+        <a href="@Url.Action("DanhSachSanPham", "Admin")">
+            <input class="btn btn-dark", style="width:400px;" type="button" value="TRỞ VỀ" />
+        </a>
+    </div>
+</fieldset>

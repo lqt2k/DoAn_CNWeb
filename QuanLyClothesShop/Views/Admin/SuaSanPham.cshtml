@@ -1,0 +1,98 @@
+﻿@model QuanLyClothesShop.Views.Shared.SANPHAM
+
+@{
+    ViewBag.Title = "SuaSanPham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>THAY ĐỔI THÔNG TIN SẢN PHẨM</legend>
+
+        @Html.HiddenFor(model => model.MASP)
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <div class="editor-label">
+                    <p>Tên sản phẩm</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.TENSP)
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.DONGIA)
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.DONGIA)
+                    @*@Html.ValidationMessageFor(model => model.Gia)*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.HINHANH)
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="editor-field">
+                    <input type="file" name="HinhMinhHoa" value="@Model.HINHANH" />
+                    @*@Html.ValidationMessageFor(model => model.HinhMinhHoa)*@
+                </div>
+            </div>
+        </div>
+
+  
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.MALOAI)
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.MALOAI)
+                    @*@Html.ValidationMessageFor(model => model.MaLSP)*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.MANSX)
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.MANSX)
+                    @*@Html.ValidationMessageFor(model => model.MaNSX)*@
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <input type="submit" value="THAY ĐỔI" class="btn btn-dark" style="width:370px;" />
+        </div>
+
+        <div class="row mt-3">
+            <a href="@Url.Action("DanhSachSanPham", "Admin")">
+                <input class="btn btn-dark", style="width:370px;" type="button" value="TRỞ VỀ" />
+            </a>
+        </div>
+    </fieldset>
+}

@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "DanhSachHoaDon";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@model QuanLyClothesShop.Views.Shared.HOADON
+
+<h2>Chi Tiết Sản Phẩm</h2>
+<div class="container">
+<div class="row">
+    <table style="margin-right:50px;">
+        <tr>
+            <td rowspan="5">
+  
+            </td>                              
+        </tr>
+        <tr>
+            <td style="width:150px; text-align:left"; >
+                Tên Sản Phẩm:
+            </td>
+            <td style="color:black; font-weight:bold; text-align:justify;">
+                @Html.DisplayFor(model => model.MAHD)
+            </td>
+        </tr>        
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Tên Loại:
+            </td>
+            <td style="color:black; text-align:justify;">
+                @Html.DisplayFor(model => model.KHACHHANG.TENKH)
+            </td>
+        </tr>
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Mô tả:
+            </td>
+            <td style="color:black; text-align:justify;">
+                @Html.DisplayFor(model => model.NGAYLAP)
+            </td>
+        </tr>
+        <tr>
+            <td style="width:120px; text-align:left";>
+                Giá Bán:
+            </td>
+            <td style="text-align:justify; color:red; font-weight:bold;">
+                @string.Format("{0:0,0}",@Model.THANHTIEN) VNĐ
+            </td>
+        </tr>      
+    </table>  
+</div>
+
